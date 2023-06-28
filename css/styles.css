@@ -34,9 +34,9 @@ img {
 }
 
 .container {
-    width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
@@ -65,6 +65,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: #4D5AE5;
+    margin-right: 76px
 }
 
 .header-logo-studio {
@@ -94,6 +95,7 @@ img {
     background-color: none;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-link {
@@ -116,15 +118,13 @@ color: #404bbf;
 
 
 .header-addres {
+    display: flex;
+    align-items: center;
+    gap: 40px;
     font-style: normal
 }
 
-.addres-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
+.addres-container {}
 
 .header-cont {
     font-weight: 400;
