@@ -241,6 +241,7 @@ color: #404bbf;
     background-color: #FFFFFF;
     padding-top: 0;
     padding-bottom: 120px;
+    display: flex;
 }
 
 .image-title {
@@ -251,9 +252,9 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
-        margin: 72px;
-        
+        margin-bottom: 72px;
 }
+
 .image-list {}
 
 .image-item {
@@ -366,7 +367,10 @@ font-weight: 400;
     gap: 24px;
 }
 
-.port-list {}
+.port-list {
+    display: flex;
+        gap: 40px
+}
 
 .port-item {}
 
