@@ -206,7 +206,9 @@ color: #404bbf;
     display: flex;
 }
 
-.about-item {}
+.about-item {
+    gap: 24px;
+}
 
 .about-title {
     font-weight: 500;
@@ -218,7 +220,7 @@ color: #404bbf;
             width: 264px;
             flex-direction: column;
             margin-left: 24px;
-        
+            width: calc((100% - 72px) / 4);
 }
 
 .about-top-text {
