@@ -402,6 +402,7 @@ img {
 .port {}
 
 .section {
+    display: flex;
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -434,12 +435,21 @@ img {
     background-color: #F4F4FD;
     padding: 12px 24px;
     max-height: 48px;
+    border: 1px solid #e7e9fc
 }
 
-.port-btn:is(:hover, :focus) {
+.port-btn:hover {
+    background-color: #404BBF;
     color: #FFFFFF;
-    background: #404BBF;
     cursor: pointer;
+    border: 1px solid transparent
+}
+
+.port-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid transparent
 }
 
 .port-section {}
