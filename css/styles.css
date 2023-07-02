@@ -39,6 +39,7 @@ img {
     padding-right: 15px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .container-port {
