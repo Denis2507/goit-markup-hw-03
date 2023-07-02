@@ -11,7 +11,7 @@
 }
 
 .visually-hidden {
-    display: none;    
+    visibility: hidden;
 }
 
 p,
@@ -25,8 +25,8 @@ h6 {
 }
 
 ul {
-   padding-left: 0;
-   margin: 0;
+    padding-left: 0;
+    margin: 0;
 }
 
 img {
@@ -63,9 +63,9 @@ img {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;    
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px
 }
@@ -77,13 +77,13 @@ img {
 
 .header-logo-studio {
     font-family: 'Raleway',
-    sans-serif;
+        sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;    
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     color: #2E2F42;
 }
 
@@ -121,7 +121,7 @@ img {
 }
 
 .header-link:hover {
-color: #404bbf;
+    color: #404bbf;
 }
 
 .header-link:focus {
@@ -188,7 +188,7 @@ color: #404bbf;
 
 .btn {
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -231,8 +231,8 @@ color: #404bbf;
 .about-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;   
-    letter-spacing: 0.02em; 
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
     display: flex;
     width: 264px;
@@ -287,7 +287,7 @@ color: #404bbf;
 .image-item {
     display: inline-flex;
     flex-direction: column;
-    align-items: flex-start;     
+    align-items: flex-start;
 }
 
 /*----------TEAM----------*/
@@ -366,7 +366,7 @@ color: #404bbf;
 }
 
 .footer-logo {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -379,7 +379,7 @@ color: #404bbf;
 }
 
 .footer-logo-studio {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -409,8 +409,13 @@ color: #404bbf;
 
 .port-list-container {
     display: flex;
+    padding-top: 96px;
     padding-bottom: 72px;
     gap: 24px;
+}
+
+.port-container {
+    display: flex;
     justify-content: center
 }
 
@@ -423,7 +428,7 @@ color: #404bbf;
 
 .port-btn {
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -441,10 +446,7 @@ color: #404bbf;
     cursor: pointer;
 }
 
-.section {
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
+.port-section {}
 
 .port-list {
     display: flex;
