@@ -407,17 +407,24 @@ img {
     padding-bottom: 120px;
 }
 
+.port-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
 .port-list-container {
     display: flex;
-    gap: 24px;
     justify-content: center;
-    margin-bottom: 72px
+    margin-bottom: 72px;
+    gap: 24px;
 }
 
 .port-list {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .port-item {}
