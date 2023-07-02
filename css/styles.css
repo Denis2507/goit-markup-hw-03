@@ -407,9 +407,13 @@ img {
 
 .port {}
 
+.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .port-list-container {
     display: flex;
-    padding-top: 96px;
     padding-bottom: 72px;
     gap: 24px;
 }
