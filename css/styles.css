@@ -11,7 +11,7 @@
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;    
 }
 
 p,
