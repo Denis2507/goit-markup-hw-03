@@ -42,12 +42,6 @@ img {
     justify-content: space-between
 }
 
-.container-port {
-    width: 1440px;
-    padding-left: 451px;
-    padding-right: 427px;
-}
-
 .body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -414,21 +408,19 @@ img {
 
 .port-list-container {
     display: flex;
-    padding-bottom: 72px;
     gap: 24px;
-}
-
-.port-container {
-    display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 72px
 }
 
 .port-list {
     display: flex;
-    gap: 40px
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .port-item {}
+    
 
 .port-btn {
     font-family: 'Roboto',
@@ -451,12 +443,6 @@ img {
 }
 
 .port-section {}
-
-.port-list {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-}
 
 .port-item {}
 
