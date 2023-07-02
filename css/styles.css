@@ -10,8 +10,8 @@
     list-style: none;
 }
 
-.section {
-    display: none;
+.visually-hidden {
+    visibility: hidden;
 }
 
 p,
@@ -39,7 +39,7 @@ img {
     padding-right: 15px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .container-port {
@@ -414,6 +414,11 @@ color: #404bbf;
     gap: 24px;
 }
 
+.port-container {
+    display: flex;
+    justify-content: center
+}
+
 .port-list {
     display: flex;
     gap: 40px
@@ -432,6 +437,7 @@ color: #404bbf;
     color: #4D5AE5;
     background-color: #F4F4FD;
     padding: 12px 24px;
+    max-height: 48px;
 }
 
 .port-btn:is(:hover, :focus) {
