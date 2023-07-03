@@ -228,6 +228,7 @@ img {
     display: flex;
     width: 264px;
     flex-direction: column;
+    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
