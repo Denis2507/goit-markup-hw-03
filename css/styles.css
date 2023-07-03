@@ -11,7 +11,16 @@
 }
 
 .visually-hidden {
-    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 p,
@@ -368,7 +377,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -381,8 +389,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-    display: inline-block;
     margin-bottom: 16px;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .footer-text {
@@ -395,6 +406,7 @@ img {
     width: 264px;
     flex-direction: column;
     flex-shrink: 0;
+    margin-top: 16px;
 }
 
 /*----------PORTFOLIO ----------*/
