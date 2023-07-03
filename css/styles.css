@@ -38,8 +38,6 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between
 }
 
 .body {
@@ -216,11 +214,10 @@ img {
 
 .about-list {
     display: flex;
-}
-
-.about-item {
     gap: 24px;
 }
+
+.about-item {}
 
 .about-title {
     font-weight: 500;
@@ -231,7 +228,6 @@ img {
     display: flex;
     width: 264px;
     flex-direction: column;
-    margin-left: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -246,7 +242,6 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    margin-left: 24px;
 }
 
 .image-container {
@@ -313,6 +308,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-our {
@@ -334,6 +330,8 @@ img {
     color: #2E2F42;
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-bottom: 8px
 }
 
 .team-work {
@@ -344,6 +342,7 @@ img {
     color: var(--body-color);
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 /*----------FOOTER----------*/
@@ -449,8 +448,9 @@ img {
     background-color: #F4F4FD;
     padding: 12px 24px;
     max-height: 48px;
-    border: 1px solid #e7e9fc
-}
+    border-radius: 4px;
+    border: 1px solid #e7e9fc;
+    }
 
 .port-btn:hover {
     background-color: #404BBF;
@@ -481,9 +481,9 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
     align-self: stretch;
     padding-top: 32px;
+    margin-bottom: 8px
 }
 
 .port-text {
